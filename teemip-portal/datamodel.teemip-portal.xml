@@ -21,7 +21,7 @@
       <module_design id="teemip-portal" xsi:type="portal" _delta="define">
          <properties>
             <name>portal:teemip-portal</name>
-            <logo>teemip-portal/asset/img/Logo_TeemIP_horizontal_Blanc.svg</logo>
+            <logo>teemip-portal/asset/img/LogoTeemIP_HORIZONTAL_blanc.png</logo>
             <themes>
                <theme id="portal">itop-portal-new-look-for-3.2-lts/public/css/portal.scss</theme>
                <theme id="bootstrap">itop-portal-new-look-for-3.2-lts/public/css/bootstrap-theme-combodo.scss</theme>
