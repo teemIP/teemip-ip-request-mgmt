@@ -1,5 +1,5 @@
-# <img src="https://wiki.teemip.net/lib/exe/fetch.php?media=extensions:picto_iprequestmanagement.png"> TeemIp IP Request Management
-TeemIp workflow to handle IPAM requests - Includes TeemIp portal
+# <img src="https://wiki.teemip.net/lib/exe/fetch.php?media=extensions:picto_iprequestmanagement.png"> teemIP IP Request Management
+teemIP workflow to handle IPAM requests - Includes teemIP portal
 
 
 ## Description
@@ -14,11 +14,11 @@ It provides the two following features :
 
 ## Documentation
 
-Comprehensive documentation can be found on TeemIp’s [wiki][3], namely in the chapter dedicated to the extension:
+Comprehensive documentation can be found on teemIP’s [wiki][3], namely in the chapter dedicated to the extension:
 
 - [IP Request Management][3]
 
-[1]: https://wiki.teemip.net/doku.php?id=extensions:teemip-request-mgmt
-[2]: https://wiki.teemip.net/doku.php?id=2_x:portal:start
-[3]: https://wiki.teemip.net
-[4]: https://wiki.teemip.net/doku.php?id=extensions:teemip-request-mgmt
+[1]: https://wiki.teemip.com/doku.php?id=extensions:teemip-request-mgmt
+[2]: https://wiki.teemip.com/doku.php?id=2_x:portal:start
+[3]: https://wiki.teemip.com
+[4]: https://wiki.teemip.com/doku.php?id=extensions:teemip-request-mgmt
