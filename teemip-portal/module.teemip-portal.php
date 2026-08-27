@@ -6,7 +6,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'teemip-portal/3.2.1',
+	'teemip-portal/3.3.0',
 	array(
 		// Identification
 		'label' => 'Enhanced Portal for TeemIp',
@@ -14,8 +14,7 @@ SetupWebPage::AddModule(
 
 		// Setup
 		'dependencies' => array(
-			'itop-portal-base/3.2.0',
-            'itop-portal-new-look-for-3.2-lts/1.0.0'
+			'itop-portal-base/3.3.0',
 		),
 		'mandatory' => false,
 		'visible' => true,

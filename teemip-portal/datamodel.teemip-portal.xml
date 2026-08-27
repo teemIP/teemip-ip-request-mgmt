@@ -22,56 +22,8 @@
          <properties>
             <name>portal:teemip-portal</name>
             <logo>teemip-portal/asset/img/LogoTeemIP_HORIZONTAL_blanc.png</logo>
-            <themes>
-               <theme id="portal">itop-portal-new-look-for-3.2-lts/public/css/portal.scss</theme>
-               <theme id="bootstrap">itop-portal-new-look-for-3.2-lts/public/css/bootstrap-theme-combodo.scss</theme>
-               <theme id="main">itop-portal-new-look-for-3.2-lts/public/css/main.scss</theme>
-            </themes>
-            <templates>
-                <template id="layout">itop-portal-new-look-for-3.2-lts/templates/layout.html.twig</template>
-                <template id="home">itop-portal-new-look-for-3.2-lts/templates/home/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:page">itop-portal-new-look-for-3.2-lts/templates/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:navigation_menu">itop-portal-new-look-for-3.2-lts/templates/pages/navigation_menu.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:modal">itop-portal-new-look-for-3.2-lts/templates/modal/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:loader">itop-portal-new-look-for-3.2-lts/templates/helpers/loader.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:tagset_clic_handler_js">itop-portal-new-look-for-3.2-lts/templates/helpers/tagset_clic_handler.js.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:session_message">itop-portal-new-look-for-3.2-lts/templates/helpers/session_messages/session_message.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\AbstractController:session_messages">itop-portal-new-look-for-3.2-lts/templates/helpers/session_messages/session_messages.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\PortalBrick:tile">itop-portal-new-look-for-3.2-lts/templates/bricks/tile.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:page">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:tile">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/tile-default.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:tile_badge">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/tile-badge.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:tile_chart">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/tile-chart.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:tile_top_list">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/tile-top-list.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:page_chart">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/layout-chart.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:page_table">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/layout-table.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:mode_chart_bar">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/mode-bar-chart.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:mode_chart_pie">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/mode-pie-chart.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\ManageBrick:popup-export-excel">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/popup-export-excel.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\AggregatePageBrick:page">itop-portal-new-look-for-3.2-lts/templates/bricks/aggregate-page/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\AbstractBrick:page">itop-portal-new-look-for-3.2-lts/templates/bricks/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\BrowseBrick:tile">itop-portal-new-look-for-3.2-lts/templates/bricks/tile.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\BrowseBrick:page">itop-portal-new-look-for-3.2-lts/templates/bricks/browse/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\BrowseBrick:page_list">itop-portal-new-look-for-3.2-lts/templates/bricks/browse/mode_list.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\BrowseBrick:page_mosaic">itop-portal-new-look-for-3.2-lts/templates/bricks/browse/mode_mosaic.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\BrowseBrick:page_tree">itop-portal-new-look-for-3.2-lts/templates/bricks/browse/mode_tree.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\FilterBrick:tile">itop-portal-new-look-for-3.2-lts/templates/bricks/filter/tile.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\UserProfileBrick:page">itop-portal-new-look-for-3.2-lts/templates/bricks/user-profile/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\UserProfileBrick:user_info">itop-portal-new-look-for-3.2-lts/templates/bricks/user-profile/user_info.html.twig</template>
-                <template id="Combodo\iTop\Portal\Brick\UserProfileBrick:user_info_ready_js">itop-portal-new-look-for-3.2-lts/templates/bricks/user-profile/user_info.ready.js.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\DefaultController:page">itop-portal-new-look-for-3.2-lts/templates/home/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ManageBrickController:modal_export_excel">itop-portal-new-look-for-3.2-lts/templates/bricks/manage/popup-export-excel.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:page">itop-portal-new-look-for-3.2-lts/templates/bricks/object/layout.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:modal">itop-portal-new-look-for-3.2-lts/templates/bricks/object/modal.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_create">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_create.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_edit">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_edit.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_search_hierarchy">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_search_hierarchy.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_search_regular">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_search_regular.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_view">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_view.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_apply_stimulus">itop-portal-new-look-for-3.2-lts/templates/bricks/object/mode_apply_stimulus.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:mode_loader">itop-portal-new-look-for-3.2-lts/templates/modal/mode_loader.html.twig</template>
-                <template id="Combodo\iTop\Portal\Controller\ObjectController:plugins_buttons">itop-portal-new-look-for-3.2-lts/templates/bricks/object/plugins_buttons.html.twig</template>
-            </templates>
+            <themes/>
+            <templates/>
 	        <triggers_query><![CDATA[SELECT TriggerOnPortalUpdate AS t WHERE t.target_class IN (:parent_classes)]]></triggers_query>
             <attachments>
                <allow_delete>true</allow_delete>
@@ -1093,8 +1045,6 @@
    <module_parameters>
       <parameters id="teemip-portal" _delta="define">
          <lazy_loading_threshold>500</lazy_loading_threshold><!-- Will be placed in the conf/<env>/config-itop.php file under the itop-portal module's settings  -->
-      </parameters>
-      <parameters id="itop-portal-new-look-for-3.2-lts" _delta="must_exist">
          <menu_display_style type="hash">
             <teemip-portal _delta="define">horizontal</teemip-portal>
          </menu_display_style>
