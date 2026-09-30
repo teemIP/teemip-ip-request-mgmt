@@ -29,6 +29,9 @@
                <allow_delete>true</allow_delete>
             </attachments>
             <urlmaker_class>TeemIpPortalEditURLMaker</urlmaker_class>
+            <ui_settings>
+               <navigation_menu>horizontal</navigation_menu>
+            </ui_settings>
          </properties>
          <bricks>
             <brick id="user-profile" xsi:type="Combodo\iTop\Portal\Brick\UserProfileBrick">
@@ -1045,9 +1048,6 @@
    <module_parameters>
       <parameters id="teemip-portal" _delta="define">
          <lazy_loading_threshold>500</lazy_loading_threshold><!-- Will be placed in the conf/<env>/config-itop.php file under the itop-portal module's settings  -->
-         <menu_display_style type="hash">
-            <teemip-portal _delta="define">horizontal</teemip-portal>
-         </menu_display_style>
       </parameters>
    </module_parameters>
    <snippets>
