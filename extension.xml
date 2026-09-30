@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension format="1.0">
 	<extension_code>teemip-ip-request-mgmt</extension_code>
-	<company>TeemIp</company>
+	<company>teemIP</company>
 	<author><![CDATA[Christophe Naud]]></author>
 	<label><![CDATA[IP request management]]></label>
-	<description><![CDATA[TeemIp workflow to handle IPAM requests - Includes TeemIp portal]]></description>
-	<version>3.2.1</version>
-	<release_date>2026-05-04</release_date>
-	<version_description><![CDATA[Enhancements from TeemIp 3.2.0 - See wiki at https://wiki.teemip.net/doku.php?id=extensions:teemip-request-mgmt]]></version_description>
-	<itop_version_min>3.2.0</itop_version_min>
+	<description><![CDATA[teemIP workflow to handle IPAM requests - Includes teemIP portal]]></description>
+	<version>3.3.0</version>
+	<release_date>2026-09-30</release_date>
+	<version_description><![CDATA[Enhancements from teemIP 3.2.1 - See wiki at https://wiki.teemip.net/doku.php?id=extensions:teemip-request-mgmt]]></version_description>
+	<itop_version_min>3.3.0</itop_version_min>
 	<status>stable</status>
 	<mandatory>false</mandatory>
 	<more_info_url>https://wiki.teemip.net/doku.php?id=extensions:teemip-request-mgmt</more_info_url>

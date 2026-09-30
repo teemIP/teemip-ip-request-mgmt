@@ -9,7 +9,7 @@ SetupWebPage::AddModule(
 	'teemip-portal/3.3.0',
 	array(
 		// Identification
-		'label' => 'Enhanced Portal for TeemIp',
+		'label' => 'Enhanced Portal for teemIP',
 		'category' => 'Portal',
 
 		// Setup
