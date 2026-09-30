@@ -18,10 +18,10 @@
       </portal>
    </portals>
    <module_designs>
-      <module_design id="teemip-portal" xsi:type="portal" _delta="define">
+      <module_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="teemip-portal" xsi:type="portal" _delta="define">
          <properties>
             <name>portal:teemip-portal</name>
-            <logo>teemip-portal/asset/img/LogoTeemIP_HORIZONTAL_blanc.png</logo>
+            <logo>teemip-portal/asset/img/teemip-portal-logo.svg</logo>
             <themes/>
             <templates/>
 	        <triggers_query><![CDATA[SELECT TriggerOnPortalUpdate AS t WHERE t.target_class IN (:parent_classes)]]></triggers_query>
